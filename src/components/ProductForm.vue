@@ -254,6 +254,7 @@ onUnmounted(() => {
             class="h-24 w-24 rounded-md border border-border object-cover"
             :src="displaySrc"
             alt="Pratinjau gambar produk"
+            crossorigin="anonymous"
             @error="previewFailed = true"
           />
           <div

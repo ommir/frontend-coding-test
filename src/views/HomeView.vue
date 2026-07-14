@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import AppLayout from '@/components/layout/AppLayout.vue'
-import BaseCard from '@/components/ui/BaseCard.vue'
 import { useAuthStore } from '@/stores/auth'
 
 const authStore = useAuthStore()

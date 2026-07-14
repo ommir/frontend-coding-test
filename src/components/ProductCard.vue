@@ -48,6 +48,7 @@ watch(
       class="aspect-[4/3] w-full bg-slate-100 object-cover"
       :src="imageUrl"
       :alt="product.title"
+      crossorigin="anonymous"
       loading="lazy"
       @error="imageFailed = true"
     />
